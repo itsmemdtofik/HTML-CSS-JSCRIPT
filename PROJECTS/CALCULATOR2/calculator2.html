@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Calculator | CODE | TOFIK</title>
+    <style>
+        .txt {
+            width: 760px;
+            height: 550px;
+            margin-top: 10px;
+            position: absolute;
+            margin-left: 300px;
+            background-color: aliceblue;
+            border: none;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1.5), 0 6px 20px 0 rgba(0, 0, 0, 1.5);
+        }
+
+        .demo {
+            width: 660px;
+            height: 450px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1.5), 0 6px 20px 0 rgba(0, 0, 0, 1.5);
+            margin: 40px;
+            padding-left: 20px;
+            background-color: floralwhite;
+            border: none;
+            padding-top: 20px;
+            padding-right: 10px;
+            padding-left: 20px;
+            border-radius: 12px;
+        }
+
+        form {
+            width: 560px;
+            height: 350px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1.5), 0 6px 20px 0 rgba(0, 0, 0, 1.5);
+            background-color: gray;
+            border-radius: 12px;
+            padding-top: 30px;
+            margin-top: 20px;
+            margin-left: 30px;
+            padding-left: 30px;
+        }
+
+        input[type="text"] {
+            width: 200px;
+            height: 30px;
+            border: none;
+            margin-top: 40px;
+            padding-left: 15px;
+            font-family: arial black;
+            color: black;
+            margin-left: 30px;
+            background-color: floralwhite;
+            cursor:pointer;
+
+
+
+        }
+
+        input[type="text"]:hover {
+            width: 200px;
+            height: 30px;
+            border: none;
+            padding-left: 15px;
+            font-family: arial black;
+            color: ghostwhite;
+            border: none;
+            color: black;
+            border: 1px solid white;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+            cursor:pointer;
+
+        }
+
+        input[type="button"] {
+            width: 215px;
+            height: 30px;
+            border: none;
+            padding-left: 15px;
+            font-size: 15px;
+            font-family: arial black;
+            color: black;
+            margin-left: 30px;
+            background-color: ghostwhite;
+            cursor:pointer;
+        }
+
+        input[type="button"]:hover {
+            width: 215px;
+            height: 30px;
+            background-color: deeppink;
+            color: black;
+            -moz-transition-duration: 1.4s;
+            transform: scale(1.2);
+        }
+
+        input[type="reset"] {
+            width: 215px;
+            height: 30px;
+            padding-left: 15px;
+            font-size: 15px;
+            font-family: arial black;
+            color: black;
+            border: none;
+            background-color: darkorange;
+            cursor:pointer;
+
+
+        }
+
+        input[type="reset"]:hover {
+            width: 200px;
+            height: 30px;
+            transition-duration: .4s;
+            transform: scale(1.0);
+            font-style: bold;
+            color: white;
+            border: none;
+            background-color: rgb(209, 8, 85);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1.5), 0 6px 20px 0 rgba(0, 0, 0, 1.5);
+            transition: 0.4s;
+
+
+        }
+
+
+
+        h1 {
+            -webkit-animation: mymove 5s infinite;
+            animation: mymove 5s infinite;
+            border: none;
+            width: 230px;
+            height: 45px;
+            color: white;
+            margin-left: 500px;
+            background-color: transparent;
+        }
+
+        @-webkit-keyframes mymove {
+            10% {
+                box-shadow: 5px 5px 50px 5px white;
+                background-color: none;
+            }
+        }
+
+        @keyframes mymove {
+            10% {
+                box-shadow: 5px 5px 50px 5px white;
+                background-color: none;
+            }
+        }
+    </style>
+
+
+</head>
+
+<body background="dd1.jpg">
+    <h1 style="text-align: center;">CALCULATOR</h1>
+    <div class="txt">
+        <div class="demo">
+            <form name="f1">
+                <input type="text" name="a" placeholder="Enter Number1" />
+                <input type="text" name="b" placeholder="Enter Number2" /><br><br>
+                <input type="button" name="button" onclick="fun1()" value="ADD" />
+                <input type="button" name="button" onclick="fun2()" value="SUB" /><br><br>
+                <input type="button" name="button" onclick="fun3()" value="MUL" />
+                <input type="button" name="button" onclick="fun4()" value="DIV" /><br>
+                <input type="text" name="c" placeholder="sum== " />-----
+                <input type="reset" name="reset" value="reset" />
+
+
+
+            </form>
+        </div>
+    </div>
+    <script>
+        var num1, num2, res;
+        function fun1() {
+
+            var num1 = parseFloat(document.f1.a.value);
+            var num2 = parseFloat(document.f1.b.value);
+            var res = num1 + num2;
+            document.f1.c.value = res;
+        }
+
+        function fun1() {
+
+            var num1 = parseFloat(document.f1.a.value);
+            var num2 = parseFloat(document.f1.b.value);
+            var res = num1 + num2;
+            document.f1.c.value = res;
+        }
+
+        function fun2() {
+
+            var num1 = parseFloat(document.f1.a.value);
+            var num2 = parseFloat(document.f1.b.value);
+            var res = num1 - num2;
+            document.f1.c.value = res;
+        }
+
+        function fun3() {
+
+            var num1 = parseFloat(document.f1.a.value);
+            var num2 = parseFloat(document.f1.b.value);
+            var res = num1 * num2;
+            document.f1.c.value = res;
+        }
+
+        function fun4() {
+
+            var num1 = parseFloat(document.f1.a.value);
+            var num2 = parseFloat(document.f1.b.value);
+            var res = num1 / num2;
+            document.f1.c.value = res;
+        }
+
+
+
+    </script>
+
+</body>
+
+</html>
