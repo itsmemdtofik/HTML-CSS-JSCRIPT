@@ -1,0 +1,318 @@
+ #demo1 {
+
+            width: 700px;
+            height: 500px;
+            background-color: antiquewhite;
+            position: absolute;
+            top: 30px;
+            left: 300px;
+            box-shadow: 2px 3px 2px 2px black;
+
+
+        }
+
+        @media(max-width:500px) {
+            #demo1 {
+                width: 440px;
+                height: 600px;
+                box-shadow: 0 0 10px black;
+                border-radius: 10px;
+                border: 1px solid black;
+                position: absolute;
+                left: 20px;
+                background: linear-gradient(90deg, black, deeppink, orange);
+            }
+        }
+
+        img {
+            width: 400px;
+            height: 300px;
+            position: relative;
+            top: 20px;
+            left: 150px;
+            box-shadow: 3px 3px 5px black;
+            border: 2px solid white;
+
+        }
+
+        @media(max-width:500px) {
+            img {
+                width: 400px;
+                height: 330px;
+                box-shadow: 0 0 10px black;
+                border-radius: 10px;
+                border: 1px solid black;
+                position: relative;
+                left: 20px;
+
+            }
+        }
+
+
+        .button1 {
+            width: 150px;
+            height: 30px;
+            background-color: beige;
+            color: black;
+            position: relative;
+            top: 20px;
+            left: 20px;
+            text-align: center;
+            font-family: sans-serif;
+            font-size: 15px;
+            font-weight: bolder;
+            outline: inherit;
+            margin-top: 10px;
+        }
+
+        @media(max-width:500px) {
+            .button1 {
+                width: 200px;
+                height: 40px;
+                border-radius: 100px;
+                background: linear-gradient(65deg, orange, blue, green, orange, white);
+                cursor: pointer;
+            }
+        }
+
+        .button2 {
+            width: 150px;
+            height: 30px;
+            background-color: beige;
+            color: black;
+            position: relative;
+            top: 20px;
+            left: 20px;
+            text-align: center;
+            text-align: center;
+            font-family: sans-serif;
+            font-size: 15px;
+            font-weight: bolder;
+            outline: inherit;
+
+        }
+
+        @media(max-width:500px) {
+            .button2 {
+                width: 200px;
+                height: 40px;
+                border-radius: 100px;
+                background: linear-gradient(65deg, orange, blue, green, orange, white);
+                cursor: pointer;
+               
+            }
+        }
+
+        .button3 {
+            width: 150px;
+            height: 30px;
+            background-color: beige;
+            color: black;
+            position: relative;
+            top: 20px;
+            left: 20px;
+            text-align: center;
+            text-align: center;
+            font-family: sans-serif;
+            font-size: 15px;
+            font-weight: bolder;
+            outline: inherit;
+        }
+
+        @media(max-width:500px) {
+            .button3 {
+                width: 200px;
+                height: 40px;
+                border-radius: 100px;
+                background: linear-gradient(65deg, orange, blue, green, orange, white);
+                cursor: pointer;
+            }
+        }
+
+        .button4 {
+            width: 150px;
+            height: 30px;
+            background-color: beige;
+            color: black;
+            position: relative;
+            top: 20px;
+            left: 20px;
+            text-align: center;
+            text-align: center;
+            font-family: sans-serif;
+            font-size: 15px;
+            font-weight: bolder;
+            outline: inherit;
+        }
+
+        @media(max-width:500px) {
+            .button4 {
+                width: 200px;
+                height: 40px;
+                border-radius: 100px;
+                background: linear-gradient(65deg, orange, blue, green, orange, white);
+                cursor: pointer;
+            }
+        }
+
+        .button5 {
+            width: 150px;
+            height: 30px;
+            background-color: beige;
+            color: black;
+            position: relative;
+            top: 20px;
+            left: 20px;
+            text-align: center;
+            text-align: center;
+            font-family: sans-serif;
+            font-size: 15px;
+            font-weight: bolder;
+            outline: inherit;
+            
+        }
+
+        @media(max-width:500px) {
+            .button5 {
+                width: 200px;
+                height: 40px;
+                border-radius: 100px;
+                background: linear-gradient(65deg, orange, blue, green, orange, white);
+                cursor: pointer;
+            }
+        }
+
+        .button6 {
+            width: 150px;
+            height: 30px;
+            background-color: beige;
+            color: black;
+            position: relative;
+            top: 20px;
+            left: 20px;
+            text-align: center;
+            text-align: center;
+            font-family: sans-serif;
+            font-size: 15px;
+            font-weight: bolder;
+            outline: inherit;
+
+        }
+
+        @media(max-width:500px) {
+            .button6 {
+                width: 200px;
+                height: 40px;
+                border-radius: 100px;
+                background: linear-gradient(65deg, orange, blue, green, orange, white);
+                cursor: pointer;
+            }
+        }
+
+        .button7 {
+            width: 150px;
+            height: 30px;
+            background-color: beige;
+            color: black;
+            position: relative;
+            top: 20px;
+            left: 20px;
+            text-align: center;
+            text-align: center;
+            font-family: sans-serif;
+            font-size: 15px;
+            font-weight: bolder;
+            outline: inherit;
+
+        }
+
+        @media(max-width:500px) {
+            .button7 {
+                width: 200px;
+                height: 40px;
+                border-radius: 100px;
+                background: linear-gradient(65deg, orange, blue, green, orange, white);
+                cursor: pointer;
+            }
+        }
+
+        .button8 {
+            width: 150px;
+            height: 30px;
+            background-color: beige;
+            color: black;
+            position: relative;
+            top: 20px;
+            left: 20px;
+            text-align: center;
+            text-align: center;
+            font-family: sans-serif;
+            font-size: 15px;
+            font-weight: bolder;
+            outline: inherit;
+
+        }
+
+        @media(max-width:500px) {
+            .button8 {
+                width: 200px;
+                height: 40px;
+                border-radius: 100px;
+                background: linear-gradient(65deg, orange, blue, green, orange, white);
+                cursor: pointer;
+            }
+        }
+
+        .button9 {
+            width: 150px;
+            height: 30px;
+            background-color: beige;
+            color: black;
+            position: relative;
+            top: 20px;
+            left: 20px;
+            text-align: center;
+            text-align: center;
+            font-family: sans-serif;
+            font-size: 15px;
+            font-weight: bolder;
+            outline: inherit;
+
+        }
+
+        @media(max-width:500px) {
+            .button9 {
+                width: 200px;
+                height: 40px;
+                border-radius: 100px;
+                background: linear-gradient(65deg, orange, blue, green, orange, white);
+                cursor: pointer;
+            }
+        }
+
+        .button10 {
+            width: 150px;
+            height: 30px;
+            background-color: beige;
+            color: black;
+            position: relative;
+            top: 20px;
+            left: 20px;
+            text-align: center;
+            text-align: center;
+            font-family: sans-serif;
+            font-size: 15px;
+            font-weight: bolder;
+            outline: inherit;
+
+        }
+
+        @media(max-width:500px) {
+            .button10 {
+                width: 200px;
+                height: 40px;
+                border-radius: 100px;
+                background: linear-gradient(65deg, orange, blue, green, orange, white);
+                cursor: pointer;
+            }
+        }
