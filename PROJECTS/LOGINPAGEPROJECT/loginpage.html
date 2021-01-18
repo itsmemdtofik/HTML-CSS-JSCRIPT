@@ -1,0 +1,207 @@
+<html>
+
+<head>
+
+
+	<style type="text/css">
+		form {
+			width: 660px;
+			height: 400px;
+			background-image: url(f.jpg);
+			box-shadow: 10px 2px 20px 20px black inset;
+
+			border-left: 2px solid white;
+			border-right: 2px solid black;
+			border-bottom: 2px solid white;
+			margin-top: 30px;
+
+			border-top: 2px solid black;
+
+
+
+		}
+
+
+
+
+
+
+		input[type="text"] {
+			width: 290px;
+			height: 35px;
+			color: white;
+			padding-left: 10px;
+			background-color: transparent;
+			font-family: arial black;
+			border: 2px solid white;
+
+		}
+
+		input[type="text"]:hover {
+			background-color: transparent;
+			color: black;
+			border: 2px solid orange;
+			box-shadow: 5px 10px 20px gray inset;
+		}
+
+		input[type="password"] {
+			width: 290px;
+			height: 35px;
+			padding-left: 10px;
+			background-color: transparent;
+			font-family: arial black;
+			border: 2px solid white;
+
+		}
+
+		input[type="password"]:hover {
+			background-color: transparent;
+			color: black;
+			border: 2px solid orange;
+		}
+
+
+
+		input[type="Submit"] {
+			width: 180px;
+			height: 35px;
+			border-left: 2px solid white;
+			border-right: 2px solid white;
+			border-top: 2px solid black;
+			border-bottom: 2px solid black;
+
+			font-family: arial black;
+			color: black;
+			background-color: transparent;
+
+
+
+		}
+
+		input[type="submit"]:hover {
+			background-color: black;
+			color: white;
+			transition-duration: .5s;
+			transform: scale(1.2);
+			border: none;
+		}
+
+		input[type="reset"] {
+			width: 180px;
+			height: 35px;
+			border-left: 2px solid white;
+			border-right: 2px solid white;
+			border-top: 2px solid black;
+			border-bottom: 2px solid black;
+			font-family: arial black;
+			color: white;
+			background-color: transparent;
+
+
+
+		}
+
+		input[type="reset"]:hover {
+			background-color: deeppink;
+			color: black;
+			transition-duration: .5s;
+			transform: scale(1.2);
+			border: none;
+
+
+		}
+
+		.text {
+			position: absolute;
+			margin-left: 50%;
+			margin-top: 2%;
+
+			transform: translate(-50%, -50%);
+		}
+
+		ul {
+			padding: 0;
+			margin: 0;
+			list-style: none;
+			display: flex;
+		}
+
+		ul li {
+			font-size: 40px;
+			letter-spacing: 10px;
+			text-shadow: 1px 5px 10px #000042;
+			font-family: arial black;
+		}
+
+		ul li:nth-child(1) {
+			color: #fff;
+		}
+
+		ul li:nth-child(2) {
+			color: purple;
+		}
+
+
+		ul li:nth-child(3) {
+			color: orange;
+		}
+
+
+		ul li:nth-child(4) {
+			color: blue;
+		}
+
+		ul li:nth-child(5) {
+			color: white;
+		}
+
+		ul li:nth-child(6) {
+			color: orange;
+		}
+
+		ul li:nth-child(7) {
+			color: violet;
+		}
+
+		b {
+			font-family: arial black;
+			color: white;
+		}
+	</style>
+</head>
+
+<body background="g.jpg">
+	<div class="text">
+
+		<ul>
+			<li>L</li>
+			<li>o</li>
+			<li>g</li>
+			<li>i</li>
+			<li>n</li>
+			<li>T</li>
+			<li>o</li>
+			<li>U</li>
+			<li>s</li>
+
+
+
+
+
+		</ul>
+	</div><br><br>
+
+
+	<center>
+		<form action="http://localhost//hello/loginpage.php" method="post">
+			<br><br><br><br><br><br>
+			<input type="text" required="" name="name" placeholder="Enter Name" /><br><br><br>
+			<input type="password" required="" name="password" placeholder="Enter Password" /><br><br><br>
+			<input type="submit" value="Login" name="submit" />
+			<input type="reset" value="Reset" name="reset" />
+		</form>
+	</center>
+
+</body>
+
+</html>
