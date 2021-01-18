@@ -1,0 +1,167 @@
+body{
+	background-color:gray;
+
+}
+.text {
+            position: absolute;
+            left:5px;
+            top:15px;
+            margin-top: 2%;
+            transform: translate(-50%, -50%);
+            padding-left: 100%;
+        }
+
+
+        ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            display: flex;
+
+
+        }
+
+
+
+        ul li {
+            font-size: 30px;
+            letter-spacing: 5px;
+            text-shadow: 1px 10px 10px gray ;
+            font-family: sans-serif;
+            font-weight: bolder;
+        }
+
+
+
+        ul li:nth-child(1) {
+            color: red;
+        }
+
+        ul li:nth-child(2) {
+            color: purple;
+            font-weight: bolder;
+        }
+
+        ul li:nth-child(3) {
+            color: orange;
+            font-weight: bolder;
+        }
+
+
+        ul li:nth-child(4) {
+            color: aliceblue;
+            font-weight: bolder;
+        }
+
+        ul li:nth-child(5) {
+            color: purple;
+            font-weight: bolder;
+        }
+
+        ul li:nth-child(6) {
+            color: black;
+            font-weight: bolder;
+        }
+
+        ul li:nth-child(7) {
+            color: white;
+            font-weight: bolder;
+        }
+
+        ul li:nth-child(8) {
+            color: lightcoral;
+            font-weight: bolder;
+        }
+
+        ul li:nth-child(9) {
+            color: red;
+            font-weight: bolder;
+        }
+
+        ul li:nth-child(10) {
+            color: black;
+            font-weight: bolder;
+        }
+
+        
+.cal-box{
+	width: 200px;
+	margin: 20px auto;
+
+}
+.container{
+	width: 400px;
+	height: 500px;
+	margin: 80px auto;
+	border-radius: 10px; 
+	background:floralwhite;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+#display{
+	position: relative;
+	left: -50px;
+	border: none;
+	outline: none;
+	color: deeppink;
+	text-align: right;
+	font-weight: 600;
+	padding: 15px;
+	font-size: 20px;
+	font-weight: bolder;
+	margin: 30px 0 30px 0;
+	background:transparent;
+	box-shadow: inset 4px 4px 5px #babecc, inset -5px -5px 20px #ffffff;
+	border-radius: 10px/240px;
+	border:1px solid indigo;
+	border-style:dotted;
+
+}
+.button{
+	margin:15px 0 0 5px;
+	width: 42px;
+	height: 42px;
+	border: none;
+	outline: none;
+	font-size: 18px;
+	font-weight: bold;
+	cursor: pointer;
+	border-radius: 8px;
+	background:rgb(214,214,214);
+	box-shadow: 5px 5px 10px #b6acac, -5px -5px 10px #faf4f4;
+	display: inline-block;
+	border:1px solid white;
+}
+.button:active{
+
+	box-shadow: inset 1px 1px 2px #babeec, inset -1px -1px 2px #ffffff;
+	
+}
+.clearButton{
+
+	background-color: red;
+	color:white;
+
+}
+.addButton{
+
+	background-color: black;
+	color:white;
+
+}
+.subButton{
+	background-color: green;
+	color: ghostwhite;
+}
+.mulButton{
+	background-color: orange;
+	color: floralwhite;
+}
+.divButton{
+	background-color: indigo;
+	color: snow;
+}
+.equalButton{
+	background-color: gray;
+	color: snow;
+}
