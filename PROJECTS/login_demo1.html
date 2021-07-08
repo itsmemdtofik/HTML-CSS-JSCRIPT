@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Company Login Form</title>
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <style type="text/css">
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .main_body {
+            background-color: whitesmoke;
+
+
+        }
+
+        .main {
+            position: absolute;
+            top: 15px;
+            margin-left: 180px;
+            width: 1000px;
+            height: 550px;
+            border: none;
+            box-shadow: 0 0 10px darkorange inset;
+            background-image: url(happy-01.png);
+            border-radius: 40px;
+            display: block;
+        }
+
+        @media(max-width:500px) {
+            .main {
+                width: 440px;
+                height: 600px;
+                position: absolute;
+                left: -150px;
+                box-shadow: 0 0 20px firebrick inset;
+                border: 1px solid red;
+                border-radius: 10px;
+            }
+        }
+
+        .sub_main_left {
+            position: relative;
+            top: 0;
+            left: 0;
+            background-color: forestgreen;
+            border-bottom-left-radius: 40px;
+            border-top-left-radius: 40px;
+            border-bottom-right-radius: 0px;
+            width: 500px;
+            height: 550px;
+            display: block;
+
+        }
+
+        @media(max-width:500px) {
+            .sub_main_left {
+                width: 0;
+                height: 0;
+                visibility: hidden;
+            }
+        }
+
+        .sub_main_right {
+            position: absolute;
+            top: 0;
+            right: 0;
+            float: right;
+            display: block;
+            width: 500px;
+            height: 550px;
+            border: none;
+            border-bottom-right-radius: 40px;
+            border-top-right-radius: 40px;
+        }
+
+        @media(max-width:500px) {
+            .sub_main_right {
+                width: 440px;
+                visibility: visible;
+                position: absolute;
+                left: -60px;
+            }
+        }
+
+        .img {
+            border-radius: 100px;
+            position: relative;
+            top: 10px;
+            left: 180px;
+            width: 150px;
+            height: 150px;
+
+        }
+
+        @media(max-width:500px) {
+            .img {
+                width: 200px;
+                height: 200px;
+                position: relative;
+                left: 170px;
+
+            }
+        }
+
+
+        b {
+            position: relative;
+            top: 0;
+            left: 210px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-transform: uppercase;
+            font-weight: bolder;
+            font-size: 20px;
+            color: deeppink;
+
+        }
+
+        @media(max-width:500px) {
+            b {
+
+                position: relative;
+                left: 230px;
+                color: deeppink;
+
+            }
+        }
+
+        .input-group {
+            width: 300px;
+            height: 50px;
+            position: relative;
+            top: 70px;
+            left: 130px;
+            border-radius: 100px;
+            box-shadow: 0 0 5px black;
+            background-color: transparent;
+        }
+
+        .form-control {
+            width: 300px;
+            height: 50px;
+            border-radius: 100px;
+            box-shadow: 0 0 5px deeppink;
+            background-color: transparent;
+            padding-left: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-transform: capitalize;
+            font-size: 15px;
+            font-weight: bolder;
+        }
+
+        .btn-info {
+            position: relative;
+            top: 100px;
+            left: 200px;
+            display: block;
+            width: 180px;
+            height: 50px;
+            border-radius: 100px;
+            background-color: rgb(219, 10, 209);
+        }
+
+        h1 {
+            position: relative;
+            top: 190px;
+            left: 20px;
+            color: oldlace;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 20px;
+            font-weight: bolder;
+            text-transform: uppercase;
+        }
+
+        hr {
+            position: relative;
+            top: 180px;
+            left: 20px;
+            width: 40px;
+            height: 5px;
+
+        }
+
+        .sub_main_text {
+            position: relative;
+            top: 200px;
+            left: 20px;
+            font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            text-justify: initial;
+            color: ivory;
+        }
+
+        .btn-primary {
+            position: relative;
+            top: 210px;
+            left: 20px;
+            border-radius: 100px;
+            background-color: transparent;
+            border: 2px solid oldlace;
+        }
+
+        .href {
+            position: relative;
+            color: black;
+            top: 90px;
+            left: 230px;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body class="main_body">
+    <div class="main">
+        <div class="sub_main_left">
+            <h1>Welcome To Login Page</h1>
+            <hr color="white" />
+            <div class="sub_main_text">
+                <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text<br> used in laying
+                    out print, graphic or web designs. The passage is attributed to
+                    an unknown typesetter in the 15th century who is<br> thought to
+                    have scrambled parts of Cicero's De Finibus Bonorum <br>
+                    Malorum for use in a type specimen book.</p>
+            </div>
+            <a href=""><button type="button" class="btn btn-primary btn-lg">Read more</button></a>
+        </div>
+        <div class="sub_main_right">
+            <img src="profile_pic.png" class="img" /><br>
+            <b>SIGNING</b>
+            <form action="" method="">
+                <div class="input-group">
+                    <input type="text" class="form-control" autocomplete="off" placeholder="Enter Name" />
+                </div><br>
+                <div class="input-group">
+                    <input type="password" class="form-control" autocomplete="off" placeholder="Enter Password" />
+                </div>
+                <button type="button" class="btn btn-info">Login</button><br>
+                <a href="#" class="href">Forgot Password</a>
+
+            </form>
+            
+        </div>
+
+    </div>
+</body>
+
+</html>
